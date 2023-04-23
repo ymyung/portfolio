@@ -89,6 +89,12 @@ input, select, textarea {
             margin: 0 0 2rem 0;
         }
 
+.skills-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .project-body {
     display: flex;
     flex-direction: column;
@@ -144,6 +150,11 @@ input, select, textarea {
 	body {
 		background: #1b1f22;
 	}
+
+  .project-description {
+    margin-bottom: .5rem;
+    border-top: 1px solid gray;
+  }
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
