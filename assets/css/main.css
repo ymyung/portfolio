@@ -92,7 +92,7 @@ input, select, textarea {
 .skills-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .project-body {
